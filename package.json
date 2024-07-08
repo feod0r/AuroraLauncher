@@ -89,13 +89,13 @@
     },
     "build": {
         "appId": "ru.aurora.launcher",
-        "productName": "Aurora Launcher",
+        "productName": "Romecraft Launcher",
         "publish": [
             {
                 "provider": "github",
                 "releaseType": "release",
-                "owner": "AuroraTeam",
-                "repo": "Launcher"
+                "owner": "feod0r",
+                "repo": "AuroraLauncher"
             }
         ],
         "directories": {
@@ -118,7 +118,7 @@
                 "AppImage"
             ],
             "category": "Game",
-            "maintainer": "AuroraTeam <null@aurora-team.ru>"
+            "maintainer": "feod0r"
         }
     },
     "optionalDependencies": {
