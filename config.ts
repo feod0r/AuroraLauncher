@@ -4,15 +4,15 @@ export const window = {
     width: 900,
     height: 550,
     frame: false,
-    resizable: false,
-    maximizable: false,
+    resizable: true,
+    maximizable: true,
     fullscreenable: false,
-    title: 'Aurora Launcher',
+    title: 'Romecraft Launcher',
 };
 
 export const api = {
-    ws: 'ws://127.0.0.1:1370/ws',
-    web: 'http://127.0.0.1:1370',
+    ws: 'ws://romecraft.ru:1370/ws',
+    web: 'http://romecraft.ru:1370',
     // extraToken: token,
 };
 
